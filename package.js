@@ -1,8 +1,8 @@
 Package.describe({
-  name: "robertlowe:autoform-pickadate",
+  name: "smartunit:autoform-pickadate",
   version: "0.1.3",
-  summary: "pickadate.js for autoform",
-  git: "https://github.com/robertlowe/autoform-pickadate"
+  summary: "pickadate.js for autoform (for AutoForm 6.0)",
+  git: "https://github.com/alopex-smartunit/autoform-pickadate"
 });
 
 Package.onUse(function (api, where) {
@@ -14,7 +14,7 @@ Package.onUse(function (api, where) {
   api.use('tracker');
   api.use('coffeescript');
   api.use('mquandalle:jade@0.4.1');
-  api.use('aldeed:autoform@4.2.2 || 5.0.0');
+  api.use('aldeed:autoform@6.0.0');
   api.use('robertlowe:pickadate@3.5.5');
   api.use('aldeed:template-extension@3.4.1');
 
