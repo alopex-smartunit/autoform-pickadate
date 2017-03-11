@@ -16,7 +16,7 @@ Package.onUse(function (api, where) {
   api.use('mquandalle:jade@0.4.1');
   api.use('aldeed:autoform@6.0.0');
   api.use('robertlowe:pickadate@3.5.5');
-  api.use('aldeed:template-extension@3.4.1');
+  api.use('aldeed:template-extension@4.1.0');
 
   api.addFiles('autoform-pickadate.jade', 'client');
   api.addFiles('autoform-pickadate.coffee', 'client');
