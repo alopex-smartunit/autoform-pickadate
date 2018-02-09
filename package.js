@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function (api, where) {
-  api.versionsFrom('1.4');
+  api.versionsFrom('1.6');
 
   api.use('templating');
   api.use('underscore');
