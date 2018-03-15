@@ -12,14 +12,12 @@ Package.onUse(function (api, where) {
   api.use('underscore');
   api.use('jquery');
   api.use('tracker');
-  api.use('coffeescript');
-  api.use('mquandalle:jade');
   api.use('aldeed:autoform');
   api.use('robertlowe:pickadate');
   api.use('aldeed:template-extension');
 
-  api.addFiles('autoform-pickadate.jade', 'client');
-  api.addFiles('autoform-pickadate.coffee', 'client');
+  api.addFiles('autoform-pickadate.html', 'client');
+  api.addFiles('autoform-pickadate.js', 'client');
 });
 
 Package.onTest(function (api) {
